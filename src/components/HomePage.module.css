@@ -5,6 +5,7 @@
 .container {
   display: flex;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 .container a {
   width: 25%;
@@ -22,4 +23,17 @@
   font-weight: 500;
   color: black;
   margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .hero {
+    padding: 20px 50px;
+  }
+}
+@media (max-width: 500px) {
+  .hero {
+    padding: 20px 20px;
+  }
+  .container a {
+    width: 100%;
+  }
 }

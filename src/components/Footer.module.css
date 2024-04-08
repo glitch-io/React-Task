@@ -24,7 +24,7 @@ footer {
 }
 .micro {
   height: 45px !important;
-  width: 120px !important;
+  width: 130px !important;
 }
 .micro img {
   border: 1px solid white;
@@ -37,4 +37,25 @@ footer {
 footer p {
   margin-bottom: 10px;
   color: gray;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 20px 50px;
+  }
+}
+@media (max-width: 500px) {
+  footer {
+    padding: 20px 20px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .store {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
