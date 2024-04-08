@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  padding: 20px 100px;
+}
+
+.topNav h1 {
+  font-size: 1.8rem;
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav button {
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+  border: none;
+  outline: none;
+}
+.bottomNav {
+  background-color: black;
+  padding: 20px 100px;
+  color: white;
+}
