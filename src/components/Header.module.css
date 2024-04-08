@@ -11,9 +11,11 @@
   padding: 20px 100px;
 }
 
-.topNav h1 {
-  font-size: 1.8rem;
+.logo {
+  font-size: 2rem;
   color: white;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 nav {

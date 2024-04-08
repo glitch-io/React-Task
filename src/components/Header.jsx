@@ -4,7 +4,9 @@ function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.topNav}>
-        <h1>DEMO Streaming</h1>
+        <Link className={styles.logo} to="/">
+          DEMO Streaming
+        </Link>
         <nav>
           <Link to={"/login"}>Log in</Link>
           <button>Start your free trail</button>
